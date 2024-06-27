@@ -1,0 +1,140 @@
+<html>
+<head>
+<title>导航栏模板</title>
+<meta charset="utf-8">
+<link href="layout/styles/layout.css" rel="stylesheet" type="text/css" media="all">
+</head>
+<body id="top">
+
+<div class="wrapper row1">
+  <header id="header" class="clear"> 
+    <div id="logo" class="fl_left">
+      <h1><a href="index.html">导航栏</a></h1>
+    </div>
+    <nav id="mainav" class="fl_right"><!--导航链接-->
+      <ul class="clear">
+        <li class="active"><a href="index.html">首页</a></li>
+        <li><a class="drop" href="#">功能</a>
+          <ul>
+            <li><a href="pages/1.html">Python入门全攻略</a></li>
+            <li><a href="pages/photo.html">个人相册</a></li>
+          </ul>
+        </li>
+        <li><a class="drop" href="pages/photo.html">个人相册</a></li>
+        <li><a href="./pages/page3.html">我的读后感</a></li>
+        <li><a href="./pages/page2.html">经典电影推荐</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+
+<div class="wrapper row2 bgded" style="background-image:url('images/demo/backgrounds/background.jpg');">
+  <div class="overlay">
+    <div id="intro" class="clear"> 
+      <article class="one_third first">
+        <h3 class="heading"><a href="pages/1.html">Python入门全攻略</a></h3>
+        <ul class="nospace">
+          <li>Python简介</li>
+          <li>Python环境搭建</li>
+          <li>Python基础语法</li>
+          <li>Python进阶学习</li>
+          <li>实践项目与资源推荐</li>
+        </ul>
+        <p class="link"><a href="#">结语 &raquo;</a></p>
+      </article>
+      <article class="one_third">
+        <h3 class="heading">文学作品推荐</h3>
+        <ul class="nospace">
+          <li>骆驼祥子</li>
+          <li>红楼梦</li>
+          <li>云边有座小卖铺</li>
+          <li>平凡的世界</li>
+          <li>文化苦旅</li>
+        </ul>
+        <p class="link"><a href="./pages/page3.html">我的读后感&raquo;</a></p>
+      </article>
+      <article class="one_third">
+        <h3 class="heading">经典电影推荐</h3>
+        <ul class="nospace">
+          <li>飞跃疯人院</li>
+          <li>阿甘正传</li>
+          <li>霸王别姬</li>
+          <li>生活美丽</li>
+          <li>辛德勒名单</li>
+        </ul>
+        <p class="link"><a href="./pages/page2.html">详细情况&raquo;</a></p>
+      </article>
+    </div>
+  </div>
+</div>
+
+<div class="wrapper row3">
+  <main class="container clear"> 
+    <!-- main body -->
+    <div class="group">
+      <div class="one_half first">
+        <h2 class="heading btmspace-50">我的日常</h2>
+        <figure id="featuredpost"><img src="images/tupiansucai/2.6.jpg" alt="">
+          <figcaption>
+            <h2 class="heading">日常</h2>
+            <p class="shortintro">&hellip;</p>
+            <p class="link"><a class="btn" href="./pages/photo.html">更多照片 &raquo;</a></p>
+          </figcaption>
+        </figure>
+      </div>
+      <div class="one_half">
+        <h2 class="heading btmspace-50">技术分享</h2>
+        <ul id="latestposts" class="nospace">
+          <li class="clear">
+            <figure class="one_quarter first"><img class="borderedbox inspace-5" src="images/python.jpg" alt=""></figure>
+            <article class="three_quarter">
+              <h2 class="heading">Python技术</h2>
+              <div class="meta">
+                <time datetime="2045-04-06T08:15+00:00">2024年5月1日</time>
+              </div>
+              <p class="shortintro">帮你掌握Python</p>
+              <p class="link"><a class="btn" href="./pages/1.html">了解详情&raquo;</a></p>
+            </article>
+          </li>
+          <li class="clear">
+            <figure class="one_quarter first"><img class="borderedbox inspace-5" src="images/平凡.jpg" alt=""></figure>
+            <article class="three_quarter">
+              <h2 class="heading">散文推荐</h2>
+              <div class="meta">
+                <time datetime="2045-04-06T08:15+00:00">2024年6月21日</time>
+              </div>
+              <p class="shortintro">平凡的世界</p>
+              <p class="link"><a class="btn" href="./pages/page3.html">我的读后感 </a></p>
+            </article>
+          </li>
+          <li class="clear">
+            <figure class="one_quarter first"><img class="borderedbox inspace-5" src="images/电影.jpg" alt=""></figure>
+            <article class="three_quarter">
+              <h2 class="heading">经典电影推荐</h2>
+              <div class="meta">
+                <time datetime="2045-04-06T08:15+00:00">2024年5月13日</time>
+              </div>
+              <p class="shortintro">经典电影推荐.&hellip;</p>
+              <p class="link"><a class="btn" href="./pages/page2.html">了解更多 &raquo;</a></p>
+            </article>
+          </li>
+        </ul>
+      </div>
+    </div>
+    <div class="clear"></div>
+  </main>
+</div>
+
+<div class="wrapper row6">
+  <div id="copyright" class="clear"> 
+    <!-- ################################################################################################ -->
+    <p class="fl_left">Copyright &copy; 2024 - All Rights Reserved - <a href="#">Song</a></p>
+    <p class="fl_right"><a target="_blank" href="">Test</a></p>
+    <!-- ################################################################################################ -->
+  </div>
+</div>
+<!-- JAVASCRIPTS -->
+<script src="layout/scripts/jquery.min.js"></script> 
+<script src="layout/scripts/jquery.mobilemenu.js"></script>
+</body>
+</html>
